@@ -35,7 +35,7 @@ def build(ctx, env_name=env_name):
     '''    
     ctx.run(' && '.join([
         f'{source} activate {env_name}',
-        'jupyter labextension install @jupyter-widgets/jupyterlab-manager',
+        'jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.33',
         'jupyter labextension install beakerx-jupyterlab',
         'jupyter labextension install bqplot',
         'jupyter lab clean',
