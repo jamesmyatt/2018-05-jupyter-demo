@@ -12,7 +12,7 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── environment.yml    <- The conda environment file for reproducing the analysis environment, e.g.
-    │                         generated with `conda create --name jupyter_demo --file requirements.txt`
+    │                         generated with `conda env export -n jupyter-demo > environment.yml`
     │
     ├── data
     │   ├── external       <- Data from third party sources.

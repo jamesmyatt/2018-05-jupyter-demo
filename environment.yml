@@ -1,24 +1,24 @@
-name: jupyter_demo
+name: jupyter-demo
 channels:
-  - conda-forge
-packages:
-  - python=3.6.*
-  - numpy
-  - scipy
-  - scikit-learn
-  - keras
-  - tensorflow-cpu
-  - pandas
-  - matplotlib
-  - seaborn
-  - jupyter
-  - jupyterlab
-  - nb_conda
-  - ipywidgets
-  - jupyter_contrib_nbextensions
-  - beakerx
-  - bqplot
-  - nodejs
-  - invoke
-  - pip:
-    - python-dotenv
+- conda-forge
+- defaults
+dependencies:
+- python=3.6.*
+- numpy
+- scipy
+- scikit-learn
+- keras
+- tensorflow  # CPU-only version
+- pandas
+- matplotlib
+- seaborn
+- jupyter
+- jupyterlab
+- nb_conda
+- ipywidgets
+- jupyter_contrib_nbextensions
+- beakerx
+- bqplot
+- invoke
+- pip:
+  - python-dotenv
