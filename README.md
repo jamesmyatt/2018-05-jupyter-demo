@@ -3,7 +3,8 @@ jupyter-demo
 
 Demo of Python data science using Jupyter
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master)
+* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master) (notebook)
+* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master?urlpath=lab) (lab)
 
 Project Organization
 ------------
@@ -11,7 +12,7 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── environment.yml    <- The conda environment file for reproducing the analysis environment, e.g.
-    │                         generated with `conda create --name jupyter-demo --file requirements.txt`
+    │                         generated with `conda create --name jupyter_demo --file requirements.txt`
     │
     ├── data
     │   ├── external       <- Data from third party sources.
