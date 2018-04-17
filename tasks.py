@@ -19,7 +19,7 @@ def environment(ctx, clean=False, env_name=env_name):
     '''
     if clean and env_name != 'root':
         print(f'deleting environment {env_name}')
-        ctx.run(f'{source} deactivate; conda env remove -n {env_name}')
+        ctx.run(f'{source} deactivate && conda env remove -n {env_name}')
         
     # Create a new environment
     print(f'creating environment {env_name}')
