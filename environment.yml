@@ -1,7 +1,6 @@
 name: jupyter-demo
 channels:
 - conda-forge
-- defaults
 dependencies:
 - python=3.6.*
 - numpy
@@ -10,6 +9,7 @@ dependencies:
 - keras
 - tensorflow  # CPU-only version
 - pandas
+- dask
 - matplotlib
 - seaborn
 - jupyter
@@ -20,5 +20,6 @@ dependencies:
 - beakerx
 - bqplot
 - invoke
+- attrs
 - pip:
   - python-dotenv
