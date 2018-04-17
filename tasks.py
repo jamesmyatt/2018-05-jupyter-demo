@@ -46,8 +46,20 @@ def build(ctx, env_name=env_name):
     ctx.run(cmd_str)
 
 
+@task
+def clean(ctx, env_name=env_name):
+    '''
+    Removes environment for demo
+    Args:
+    env_name: name of environment to install
+    '''
+    if env_name != 'root':
+        print(f'deleting environment {env_name}')
+        ctx.run(f'{source} deactivate && conda env remove -n {env_name}')
+
+
 # Configure cross-platform settings.
-ns = Collection(environment, build)
+ns = Collection(environment, build, clean)
 ns.configure({
     'run': {
         'shell': which('bash') if os.name != 'nt' else which('cmd'),
