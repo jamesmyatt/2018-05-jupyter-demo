@@ -1,0 +1,2 @@
+# Prepare Jupyterlab environment
+invoke build --env-name=root
