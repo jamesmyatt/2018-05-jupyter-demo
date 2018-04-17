@@ -6,8 +6,7 @@ dependencies:
 - numpy
 - scipy
 - scikit-learn
-- keras
-- tensorflow  # CPU-only version
+- keras  # Uses theano by default
 - pandas
 - dask
 - matplotlib
