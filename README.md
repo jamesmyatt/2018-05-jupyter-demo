@@ -13,6 +13,8 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── environment.yml    <- The conda environment file for reproducing the analysis environment, e.g.
     │                         generated with `conda env export -n jupyter-demo > environment.yml`
+    ├── tasks.py           <- Invoke tasks definitions
+    ├── postBuild          <- Binder post-build install script
     │
     ├── data
     │   ├── external       <- Data from third party sources.
