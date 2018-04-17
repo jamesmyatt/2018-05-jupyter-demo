@@ -34,7 +34,7 @@ def build(ctx, env_name=env_name):
     Builds an environment with appropriate extensions.
     '''    
     ctx.run(' && '.join(str for str in [
-        f'{source} activate {env_name}' if env_name != 'root',
+        f'{source} activate {env_name}' if env_name != 'root' else None,
         'jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.33',
         'jupyter labextension install beakerx-jupyterlab',
         'jupyter labextension install bqplot',
