@@ -33,14 +33,17 @@ def build(ctx, env_name=env_name):
     '''
     Builds an environment with appropriate extensions.
     '''    
-    ctx.run(' && '.join(str for str in [
+    cmd_str = ' && '.join(str for str in [
         f'{source} activate {env_name}' if env_name != 'root' else None,
         'jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.33',
         'jupyter labextension install beakerx-jupyterlab',
         'jupyter labextension install bqplot',
         'jupyter lab clean',
         'jupyter lab build'
-        ] if str))
+        ] if str)
+    
+    print(f'> {cmd_str}')
+    ctx.run(cmd_str)
 
 
 # Configure cross-platform settings.
