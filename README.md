@@ -30,6 +30,9 @@ Demo of Python data science using Jupyter
 ## Third-party examples
 
 1. Jake VanderPlas, [Reproducible Data Analysis in Jupyter](https://github.com/jakevdp/JupyterWorkflow)
+2. ipywidgets Project, [Lorenz Differential Equations](https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Lorenz%20Differential%20Equations.ipynb)
+
+All MIT or BSD licensed.
 
 --------
 
