@@ -1,3 +1,10 @@
+## Project stuff
+
+# Don't store data in git
+/data/*
+
+### Python stuff
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
