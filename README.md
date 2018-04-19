@@ -1,13 +1,11 @@
-jupyter-demo
-==============================
+# jupyter-demo
 
 Demo of Python data science using Jupyter
 
 * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master) (notebook)
 * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master?urlpath=lab) (lab)
 
-Project Organization
-------------
+## Project Organization
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
@@ -28,6 +26,10 @@ Project Organization
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
+
+## Third-party examples
+
+1. Jake VanderPlas, [Reproducible Data Analysis in Jupyter](https://github.com/jakevdp/JupyterWorkflow)
 
 --------
 
