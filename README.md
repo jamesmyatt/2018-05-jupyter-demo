@@ -22,6 +22,9 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
+    ├── decisions          <- Lightweight decision records, for both architecture and analysis. See 
+    |                         http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions.
+    │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
