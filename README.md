@@ -27,8 +27,10 @@ Demo of using Jupyter for data science, especially interactive features.
 
 1. Jake VanderPlas, [Reproducible Data Analysis in Jupyter](https://github.com/jakevdp/JupyterWorkflow)
 2. ipywidgets project, [Lorenz Differential Equations](https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Lorenz%20Differential%20Equations.ipynb)
+3. BeakerX project, [Python examples](https://github.com/twosigma/beakerx/tree/master/doc/python/)
+4. bqplot project, [Wealth of Nations](https://github.com/bloomberg/bqplot/blob/master/examples/Applications/Wealth%20of%20Nations.ipynb)
 
-All MIT or BSD licensed.
+All under permissive licences like MIT, BSD or Apache 2.0.
 
 --------
 
