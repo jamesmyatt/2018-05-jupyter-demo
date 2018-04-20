@@ -1,6 +1,6 @@
 # jupyter-demo
 
-Demo of Python data science using Jupyter
+Demo of using Jupyter for data science, especially interactive features.
 
 * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master) (notebook)
 * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master?urlpath=lab) (lab)
@@ -14,14 +14,10 @@ Demo of Python data science using Jupyter
     ├── tasks.py           <- Invoke tasks definitions
     ├── postBuild          <- Binder post-build install script
     │
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    ├── data               <- The original, immutable data dump.
     │
     ├── decisions          <- Lightweight decision records, for both architecture and analysis. See 
-    |                         http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions.
+    │                         http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions.
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
@@ -30,7 +26,7 @@ Demo of Python data science using Jupyter
 ## Third-party examples
 
 1. Jake VanderPlas, [Reproducible Data Analysis in Jupyter](https://github.com/jakevdp/JupyterWorkflow)
-2. ipywidgets Project, [Lorenz Differential Equations](https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Lorenz%20Differential%20Equations.ipynb)
+2. ipywidgets project, [Lorenz Differential Equations](https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Lorenz%20Differential%20Equations.ipynb)
 
 All MIT or BSD licensed.
 
