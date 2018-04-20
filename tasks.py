@@ -58,8 +58,36 @@ def clean(ctx, env_name=env_name):
         ctx.run(f'{source} deactivate && conda env remove -n {env_name}')
 
 
+@task
+def lab(ctx, env_name=env_name):
+    '''
+    Starts jupyterlab application
+    '''    
+    cmd_str = ' && '.join(str for str in [
+        f'{source} activate {env_name}' if env_name != 'root' else None,
+        'jupyter lab'
+        ] if str)
+    
+    print(f'> {cmd_str}')
+    ctx.run(cmd_str)
+
+
+@task
+def notebook(ctx, env_name=env_name):
+    '''
+    Starts jupyter notebook application
+    '''    
+    cmd_str = ' && '.join(str for str in [
+        f'{source} activate {env_name}' if env_name != 'root' else None,
+        'jupyter notebook'
+        ] if str)
+    
+    print(f'> {cmd_str}')
+    ctx.run(cmd_str)
+
+
 # Configure cross-platform settings.
-ns = Collection(environment, build, clean)
+ns = Collection(environment, build, clean, lab, notebook)
 ns.configure({
     'run': {
         'shell': which('bash') if os.name != 'nt' else which('cmd'),
