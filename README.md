@@ -2,8 +2,8 @@
 
 Demo of using Jupyter for data science, especially interactive features.
 
-* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master) (notebook)
-* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/jupyter-demo/master?urlpath=lab) (lab)
+* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/2018-05-jupyter-demo/master) (notebook)
+* [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/2018-05-jupyter-demo/master?urlpath=lab) (lab)
 
 ## Project Organization
 
