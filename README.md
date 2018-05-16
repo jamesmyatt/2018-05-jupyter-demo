@@ -1,6 +1,6 @@
-# jupyter-demo
+# 2018-05-jupyter-demo
 
-Demo of using Jupyter for data science, especially interactive features.
+[Demo](Demo.md) of using Jupyter for data science, especially interactive features.
 
 * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/2018-05-jupyter-demo/master) (notebook)
 * [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jamesmyatt/2018-05-jupyter-demo/master?urlpath=lab) (lab)
@@ -9,6 +9,7 @@ Demo of using Jupyter for data science, especially interactive features.
 
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
+    ├── Demo.md            <- Outline of demo.
     ├── environment.yml    <- The conda environment file for reproducing the analysis environment, e.g.
     │                         generated with `conda env export -n jupyter-demo > environment.yml`
     ├── tasks.py           <- Invoke tasks definitions
