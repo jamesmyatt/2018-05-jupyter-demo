@@ -42,4 +42,4 @@ Extracted from bqplot project, [Wealth of Nations](https://github.com/bloomberg/
 
 Binder: https://mybinder.org/v2/gh/jamesmyatt/2018-05-jupyter-demo/master?urlpath=lab
 
-CSV file: [data\interest-rates.csv](data\interest-rates.csv)
+CSV file: [data/interest-rates.csv](data/interest-rates.csv)
